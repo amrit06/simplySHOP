@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/drawer_nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/drawer_nav_shoppingList"
+        android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+        android:title="Shopping List" />
+
+    <item
+        android:id="@+id/list_sub_add"
+        android:icon="@drawable/ic_add_item_24dp"
+        android:title="Add Item To List" />
+    <item
+        android:id="@+id/list_sub_remove"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="Remove Item From List" />
+
+    <item
+        android:id="@+id/drawer_nav_pantry"
+        android:icon="@drawable/ic_pantry_black_24dp"
+        android:title="Pantry" />
+
+    <item
+        android:id="@+id/pantry_sub_add"
+        android:icon="@drawable/ic_add_item_24dp"
+        android:title="Add Item To Pantry" />
+    <item
+        android:id="@+id/pantry_sub_remove"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="Remove Item From Pantry" />
+
+
+</menu>
+
+

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#73688BA0">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/pantryadd_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="6"
+        android:layout_columnSpan="2"
+        android:layout_below="@+id/pantryadd_text"
+        >
+
+        <TextView
+            android:id="@+id/idLabel"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="ID:"
+            android:textSize="25sp"
+            android:paddingLeft="5dp"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/nameLabel"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="Name:"
+            android:textSize="25sp"
+            android:paddingLeft="5dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/priceLabel"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="Price:"
+            android:textSize="25sp"
+            android:paddingLeft="5dp"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <TextView
+            android:id="@+id/quantityLabel"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="Quantity:"
+            android:textSize="25sp"
+            android:paddingLeft="5dp"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <TextView
+            android:id="@+id/locationLabel"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="Location:"
+            android:textSize="25sp"
+            android:paddingLeft="5dp"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <TextView
+            android:id="@+id/imgLabel"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="Select Icon"
+            android:textSize="25sp"
+            android:paddingLeft="5dp"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+
+
+
+
+        <EditText
+            android:id="@+id/idInput"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="E.g. 1"
+            android:paddingLeft="5dp"
+            app:layout_column="1"
+            app:layout_row="0" />
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="E.g. Milk"
+            android:paddingLeft="5dp"
+            app:layout_column="1"
+            app:layout_row="1" />
+        <EditText
+            android:id="@+id/priceInput"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="E.g. $5.00"
+            android:paddingLeft="5dp"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <EditText
+            android:id="@+id/quantityInput"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="E.g. 5"
+            android:paddingLeft="5dp"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+
+        <EditText
+            android:id="@+id/locationInput"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="E.g. Minto Grocery"
+            android:paddingLeft="5dp"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <Spinner
+            android:id="@+id/spinner_pantry"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            app:layout_column="1"
+            app:layout_row="5"
+            android:entries="@array/spinnerMenu"
+            />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pantrySubmit"
+        android:layout_below="@+id/pantryadd_grid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Submit"
+        />
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Add Item"
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:id="@+id/pantryadd_text"/>
+
+
+</RelativeLayout>

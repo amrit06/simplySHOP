@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SimplyShop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="spinnerMenu">
+        <item>Select Icon to represent Item</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Drinks</item>
+    </string-array>
+
+
+</resources>

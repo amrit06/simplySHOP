@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addPantry"
+        android:title="Add Pantry" />
+    <item
+        android:id="@+id/listPantry"
+        android:title="List Pantry" />
+
+    <item
+        android:id="@+id/removePantry"
+        android:title="Remove Pantry" />
+    <item
+        android:id="@+id/editPantry"
+        android:title="Edit Pantry" />
+
+</menu>
